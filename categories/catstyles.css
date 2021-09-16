@@ -1,0 +1,47 @@
+.doc {
+  background-image: url("https://img.freepik.com/free-vector/floral-ornamental-abstract-background_52683-30016.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Rampart One', cursive;
+  font-size: 10rem;
+  font-weight: 900;
+}
+
+img {
+  height: 25rem;
+  padding: 0.75rem;
+  margin: 1rem 0 1rem 0;
+  border-radius: 20%;
+  border-style: dotted;
+  border-color: white;
+  border-width: medium;
+}
+
+h3 {
+  text-align: center;
+  font-family: cursive;
+}
+
+h2{
+  text-align: center;
+  font-family: cursive;
+}
+
+.cat {
+  text-align: center;
+  padding: 2%;
+}
+
+.vd {
+  border-radius: 15%;
+  border-style: dotted;
+  border-color: white;
+  border-width: medium;
+  padding: 1rem;
+}

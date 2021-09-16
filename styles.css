@@ -1,0 +1,265 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+  font-family: cursive;
+}
+
+/* a */
+a:link {
+  text-decoration: none;
+}
+
+/* backgrounds */
+#home, #learn, #feedback {
+  background: url("https://i.ytimg.com/vi/WbZUdURMyQU/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#categories, #sell, #contact {
+  background-image: url("https://ak.picdn.net/shutterstock/videos/9706811/thumb/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cat {
+  padding: 3% 15% 7%;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+/* About the Artist */
+.artist-heading {
+  padding-top: 3.5%;
+  padding-bottom: 2%;
+  font-size: 3.5rem;
+  font-family: 'Rampart One', cursive;
+}
+
+.artist-image {
+  width: 50%;
+  border-radius: 12.5% 12.5% 5% 5%;
+}
+
+.about-artist {
+  line-height: 2.15;
+  font-size: 1.90rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.artist {
+  padding: 3%;
+}
+
+.con{
+  color: white;
+  text-decoration: underline;
+}
+
+.tube{
+  color: white;
+  text-decoration: underline;
+}
+
+
+/* Categories */
+.cat h2 {
+  color: #3B185F;
+  padding-bottom: 2%;
+  font-family: 'Courgette', cursive;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.category-box {
+  padding: 3.5%;
+  border-width: medium;
+  border-style: solid;
+  border-color: #2A0944;
+  /* border-collapse: separate;
+  border-spacing: 10rem; */
+}
+
+.Cat-heading {
+  font-size: 4rem;
+  color: #2A0944;
+  padding-bottom: 4%;
+  font-family: 'Vast Shadow', cursive;
+  font-weight: 600;
+}
+
+h4 {
+  color: #A73489;
+  text-align: left;
+  padding: 0.45rem;
+  font-family: 'Lobster', cursive;
+}
+
+h4:hover{
+  color: purple;
+}
+
+/* To Learn Drawing */
+#learn h1 {
+  padding: 3%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.learndrawing {
+  padding-bottom: 2%;
+}
+
+.trial {
+  border-width: thin;
+  border-style: solid;
+  border-color: white;
+}
+
+.tab {
+  padding: 0% 20% 3%;
+}
+
+.tab h3, h5 {
+  padding: 1%;
+}
+
+.learndrawing p {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.learndrawing a {
+  font-size: 1.25rem;
+  color: #FFF8E5;
+}
+
+.learndrawing a:hover {
+  color: #E8F6EF;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+/* Sell out Drawings */
+#sell {
+  padding-bottom: 3%;
+}
+
+.sellout h1 {
+  padding: 3%;
+  font-family: 'Besley', serif;
+  color: #2A0944;
+}
+
+.sell-img {
+  width: 70%;
+  border-radius: 30%;
+  border-style: dotted;
+}
+
+.cards h5 {
+  font-family: 'Hina Mincho', serif;
+  color: #512D6D;
+}
+
+.cards h3 {
+  color: #3B185F;
+}
+
+.rate {
+  font-weight: 550;
+  font-size: 1.75rem;
+  padding-bottom: 3%;
+}
+
+.cards {
+  width: 95%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+.pricing {
+  padding: 0 3% 3% 0;
+}
+
+@media (max-width: 991px) {
+  .cards {
+    width: 70%;
+  }
+
+  .pricing {
+    margin: 25px 50px 75px 100px;
+  }
+}
+
+.more {
+  padding-top: 1.5%;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: purple;
+}
+
+.more:hover {
+  color: #A73489;
+}
+
+.but {
+  color: purple;
+}
+
+.but:hover {
+  color: white;
+}
+
+/* .btn:hover{
+  background-color: white;
+  color: black;
+} */
+
+/* Feedback */
+#feedback h1 {
+  padding: 3%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.carousel-item h5 {
+  font-family: 'Courgette', cursive;
+  font-size: 3rem;
+  padding: 0 13% 2%;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.carousel-item{
+  padding-bottom: 3%;
+}
+/* Contact Me */
+#contact h1 {
+  padding: 2.5%;
+}
+
+.icondiv {
+  /* margin: 25px 50px; */
+  padding-bottom: 2%;
+}
+
+.icon {
+  margin: 20px 10px;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.icon:hover{
+  color: purple;
+  font-size: 2.75rem;
+}
